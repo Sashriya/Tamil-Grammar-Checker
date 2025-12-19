@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.wrong {
+  text-decoration: underline wavy red;
+  text-decoration-thickness: 2px;
+}
+
+/* Green highlight only for corrected fragments */
+.correct {
+  background: #b9ffd4;
+  padding: 2px 4px;
+  border-radius: 3px;
+  
+}
